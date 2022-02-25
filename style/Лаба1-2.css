@@ -1,0 +1,15 @@
+.flag-japan {
+    position: relative;
+    width: 300px; height: 200px; 
+    border: solid 1px #000000;
+}
+
+.flag-japan::after {
+    position: absolute;
+    top: 50px; left: 100px;
+    display: block;
+    content: "";
+    height: 100px; width: 100px;
+    background-color: #ec0e20;
+    border-radius: 100%;
+}

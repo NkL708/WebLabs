@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторная 1</title>
+        <link rel="stylesheet" type="text/css" href="style/Лаба1-2.css">
+        <style type="text/css">
+            table {
+                border-collapse: collapse; 
+                width: 250px; 
+            }
+            th, td {
+                border: 1px solid rgb(0, 0, 0); 
+                background: #c5d81b;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div><h1>Вариант 9</h1></div>
+        <div><h4>Выполнили студенты группы АВТ-910:</h4></div>
+        <div><h4>Безденежных Николай, Урмашов Владимир</h4></div>
+            <!-- 1ое задание -->
+        <div>
+            - Нумерованный список, начинающийся с «Z» (латинские буквы)
+            <ol type="A" start="26">
+                <li>Котики</li>
+                <li>Хомячки</li>
+                <li>Медоеды</li>
+                <li>Единороги</li>
+                <li>Лягушки</li>
+            </ol>
+        </div>
+            <!-- 2ое задание -->
+        <div>
+            - Таблица размером 3х3, три любые ячейки объединены по горизонтали и две любые ячейки объединены по вертикали
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="3">Воины Clash of clans</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Лучшие</td>
+                        <td>Варвар</td>
+                        <td>Гигант</td>
+                    </tr>
+                    <tr>
+                        <td>Гоблин</td>
+                        <td>Дракон</td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
+        <br>
+            <!-- 3е задание -->
+        <div>
+            - Форма, содержащая элементы и кнопки «Отправить» и «Сбросить» 
+            <h5>
+                <input name="choise" type="radio" value="GET"> GET
+                <br>
+                <input name="choise" type="radio" value="POST"> POST
+            </h5>
+        </div>
+        <p>Выберите неделю:
+            <br> 
+            <input type="week" name="calendar">
+            <br>
+            <input type="submit" value="Отправить">
+            <input type="submit" value="Сбросить">
+        </p>
+            <!-- Флаг Японии -->
+        <div><h4>Флаг Японии</h4></div>
+        <div class="flag-japan"></div>
+
+    </body>
+
+</html>
